@@ -70,7 +70,7 @@ if [ $MYIP = $IZIN ]; then
 else
     echo -e "\e[31mPermission Denied!\e[0m"
     echo -e "\e[31mPlease Contact https://t.me/givpn \e[0m"
-	sleep 60
+    sleep 60
     rm -f setup.sh
     exit 0
 fi
